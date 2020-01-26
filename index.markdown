@@ -1,7 +1,7 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: Bertik23 homo page
+title: Bertik23 home page
 layout: home
 ---
 Welcome to my site. Here will be all my projects and, hopefully, a documentation for them.
