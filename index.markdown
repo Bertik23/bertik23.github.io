@@ -8,7 +8,6 @@ Welcome to my site. Here will be all my projects and, hopefully, a documentation
 ## All my projects
 {%for page in site.pages%}
 	{%if page.main%}
-		[{{page.title}}]({{page.url}})
+[{{page.title}}]({{page.url}})
 	{%endif%}
 {%endfor%}
-[{{page.title}}]({{page.url}})
