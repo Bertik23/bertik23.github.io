@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Whut
+title: Test
 permalink: /projects/python-encryptor/whut
 ---
 # HI
