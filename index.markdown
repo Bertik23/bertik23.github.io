@@ -6,7 +6,7 @@ layout: home
 ---
 # Bertik23 home page
 Welcome to my site. Here will be all my projects and, hopefully, a documentation for them.
-### All my projects
+## All my projects
 {%for page in site.pages%}
 	{%if page.main%}
 		[{{page.title}}]({{page.url}})
