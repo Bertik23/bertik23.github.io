@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Test
-permalink: /projects/python-encryptor/whut
+permalink: /projects/python-encryptor/test
 ---
 # HI
