@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="sidenav">
+	{%- for p in site.pages -%}
+		{%- if p.project == page.project -%}
+			<a href="{{p.dir}}">{{p.title}}</a>
+		{%- endif -%}
+	{%- endfor -%}
+</div>
+
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

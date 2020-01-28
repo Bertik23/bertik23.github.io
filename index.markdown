@@ -12,4 +12,3 @@ Welcome to my site. Here will be all my projects and, hopefully, a documentation
 [{{page.title}}]({{page.url}})
 	{%endif%}
 {%endfor%}
-<a href="projects/python-encryptor/test" class="RRRed">HI!</a>
