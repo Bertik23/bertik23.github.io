@@ -1,8 +1,8 @@
 ---
 #HI
 ---
-@import "minima";
 $brand-color: #62D15C;
+@import "minima";
 
 /* The dropdown container */
 .nav-dropdown {
@@ -12,11 +12,11 @@ $brand-color: #62D15C;
 
 /* Dropdown button */
 .nav-dropdown .nav-dropbtn {
-  font-size: $base-font-size;
+  font-size: 18px;
   border: none;
   outline: none;
   color: black;
-  padding: 16px;
+  padding: 14px 16px 18px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
@@ -57,11 +57,11 @@ $brand-color: #62D15C;
 }
 
 .navbtn {
-  font-size: 16px;
+  font-size: 18px;
   border: none;
   outline: none;
   color: black;
-  padding: 16px;
+  padding: 14px 16px 18px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
