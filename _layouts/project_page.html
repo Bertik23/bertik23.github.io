@@ -2,7 +2,8 @@
 layout: default
 ---
 <div class="sidenav">
-	{%- for p in site.pages -%}
+	{% assign site_pages = site.pages | sort: "navOrder" %}
+	{%- for p in site_pages -%}
 		{%- if p.project == page.project -%}
 			<a href="{{p.dir}}">{{p.title}}</a>
 		{%- endif -%}
