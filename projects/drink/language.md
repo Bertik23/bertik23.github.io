@@ -1,7 +1,7 @@
 ---
 layout: project_page
 title: Changing the language
-permalink: /projects/drink/install/
+permalink: /projects/drink/language/
 main: False
 project: drink
 navOrder: 2
