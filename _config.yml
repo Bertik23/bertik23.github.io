@@ -30,7 +30,6 @@ github_username:  Bertik23
 youtube_username: Bertik23
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
   #- jekyll-katex
@@ -65,3 +64,6 @@ plugins:
 markdown: kramdown
 kramdown:
   math_engine: null
+
+sass:
+  sass_dir: assets

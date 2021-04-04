@@ -1,0 +1,13 @@
+items:
+  - name: Home
+    link: /
+  - name: About
+    link: /about
+
+dropdowns:
+  - name: Projects
+    items:
+      - name: Drink
+        link: /projects/drink/
+      - name: Encryptor
+        link: /projects/python-encryptor/
