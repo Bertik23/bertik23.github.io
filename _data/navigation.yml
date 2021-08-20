@@ -9,3 +9,5 @@ dropdowns:
         link: /projects/drink/
       - name: Encryptor
         link: /projects/python-encryptor/
+      - name: IEpy
+        link: /projects/iepy/
