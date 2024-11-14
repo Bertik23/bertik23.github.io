@@ -1,61 +1,117 @@
 ---
-permalink: /asfit 
+permalink: /as
 ---
 
-<!DOCTYPE HTML5>
-
+<!DOCTYPE html>
 <html lang="cs">
-    <head>
-        <title>Bertik23 do senátu!</title>
-        <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert Havliček do senátu</title>
+    <style>
+body {
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-        html{
-            background-color: #272727;
-            color: #EAEAEA;
-        }
+header {
+    background-color: #01FFFF;
+    padding: 1rem;
+    text-align: center;
+}
 
-        h1{
-            text-align: center;
-        }
+header h1 {
+    margin: 0;
+    color: #333;
+}
 
-        h1, h2{
-            margin-top:1rem;
-            margin-bottom: 1rem;
-        }
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
 
-        body{
-            padding: 4rem;
-        }
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
 
-        .center-wrapper{
-            margin: auto;
-            max-width: 30rem;
-        }
+main {
+    margin: auto;
+    max-width: 800px;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    display: inline-block;
+    border-bottom: 3px solid #01FFFF; /* Underline for section headers */
+    padding-bottom: 0.1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #01FFFF;
+    color: #333;
+}
+
         </style>
-    </head>
-    <body>
-        <h1>Bertik23 do senátu!</h1>
-        <div class="center-wrapper">
-            <h2>Kdo jsem?</h2>
+</head>
+
+<body>
+    <header>
+        <h1>Albert Havliček</h1>
+        <nav>
             <ul>
-                <li>Jmenuji se Albert Havliček</li>
-                <li>Nějak jsem se stal celkem aktivní ve FIT++</li>
-                <li>A podobně náhodným způsobem jsem se stal orgem FIKSu</li>
-                <li>Dělám orientační běh, mám rád Linux a Rust.</li>
+                <li><a href="#uvod">Úvod</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
             </ul>
-            <h2>Proč chci kandidovat?</h2>
-            <p>Řekl jsem si, že bych později mohl litovat, že jsem nekandidoval.</p>
-            <!--<p>Soptikovi se jiný kandidáti nelíbili.</p>-->
-            <ul>
-                <li>Chci zastupovat hlavně prváky, kteří vlastně neví, co se děje, ale na ně má většina opatření největší dopad.</li>
-                <li>Škola je určená ke studiu, nemá nás otravovat nějakou zbytečnou byrokracií. Jako třeba při podávání kandidátky do AS.</li>
-                <li>Chtělo by vyřešit nedostatek místa na učení.</li>
-                <li>A když máme tu IT fakultu a z přednášek záznamy, tak záznamy ze zasedání AS by taky nebyly odvěci.</li>
-            </ul>
-        </div>
-    </body>
+        </nav>
+    </header>
+    <main>
+        <section id="uvod">
+            <h2>O mě</h2>
+            <p>Jsem student 3. ročníku bakaláře, specializace Teoretická informatika.</p>
+            <p>Aktuálně jsem na Erasmu v Norsku, kde se snažím inspirovat a poučit se z jejich chyb. A také tu kvůli tomu strávím o rok dýl.</p>
+            <p>Organizuji FIKS, jsem aktivním členem FIT++ a členem Akademického senátu. Pro odreagování se věnuji orientačnímu běhu.</p>
+        </section>
+        <section id="uspechy">
+            <h2>Jaké jsou mé úspěchy?</h2>
+            <p>Účastním se všech zasedání senátu a diskuse na nich.</p>
+            <p>Nové koeficienty prospěchových stipendií jsou více vyvážené než byli původně navrhovány.</p>
+            <p>Práce na nové magisterské akreditaci byly zahájené o poznání dříve, možná se stihne i o rok dřív.</p>
+            <p>Některé dokumenty dostává senát v otřesné kvalitě. Čtu je a opravuji chyby, aby byly smysluplné a bez chyb.</p>
+            <p>Mám zkušenosti z vedení FIT++, kde se nám povedlo dostat klub z krize. A v senátním prosředí jsem již aklimatizován.</p>
+        </section>
+        <section id="program">
+            <h2>Co chci dále prosazovat?</h2>
+            <p>Aby bylo vedení více transparentní.</p>
+            <p>Akademická obec je málo informována o změnách, které se dějí. Chci aby byla více a kvalitně informována.</p>
+            <p>Pro vedení jsou zdá se důležití uchazeči, ale starost o studenty pokulhává.</p>
+            <p>Fakulta bojuje s místem, ale při využití místa se musí brát ohled i na potřeby studentů.</p>
+            <p>Všichni studenti si zaslouží spravedlivé zacházení a jasná pravidla.</p>
+            <p>Pro fungující školu je důležitá kvalita výuky, ale i infrastuktury na které běží.</p>
+        </section>
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p><a href="mailto:havlialb@fit.cvut.cz">havlialb@fit.cvut.cz</a></p>
+            <p>Discord: <a href="https://discordapp.com/users/452478521755828224">@bertik23</a></p>
+        </section>
+    </main>
+    <!-- <footer> -->
+    <!--     <p>&copy; 2024 Volební Strana</p> -->
+    <!-- </footer> -->
+</body>
 </html>
+
